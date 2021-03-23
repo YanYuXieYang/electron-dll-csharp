@@ -21,9 +21,18 @@ namespace ClassLibrary1
             int v = (int)input;
             return v + 1;
         }
+
+        //以下两种方式都无用
+        /*
         public static int AddTwo(int a)
         {
             return a + 2;
         }
+        public int AddThree(object input)
+        {
+            int v = (int)input;
+            return v + 1;
+        }
+        */
     }
 }
